@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 500px;
+    height: 500px;
+    background: lightgray;
+    margin: 50px auto;
+    border: 2px solid darkgray;
+    position: relative;
+}
+.container div{
+    background: lightcyan;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.caja2{
+    right: 0;
+}
+.caja3{
+    bottom: 0;
+}
+.caja4{
+    bottom: 0;
+    right: 0;
+}
+.caja5{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.container div div{
+    background-color: darkcyan;
+    width: 30px;
+    height: 30px;
+    
+}
+.subcaja2{
+    right: 0;
+}
+.subcaja3{
+    bottom: 0;
+}
+.subcaja4{
+    bottom: 0;
+    right: 0;
+}
+.subcaja5{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.container div div div{
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    border: none;
+}
+.sub-subcaja2{
+    right: 0;
+}
+.sub-subcaja3{
+    bottom: 0;
+}
+.sub-subcaja4{
+    bottom: 0;
+    right: 0;
+}
+.sub-subcaja5{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.fixed{
+    position: fixed;
+    background: lightblue;
+    width: 100%;
+    height: 50px;
+    z-index: 1;
+    margin-top: -50px;
+}
+.abajo{
+    bottom: 0;
+}
+.izq{
+    height: 100vh;
+    width: 385px;
+    z-index: 10;
+    top: 0;
+}
+.der{
+    position: fixed;
+    height: 100vh;
+    width: 385px;
+    z-index: 20;
+    right: 0;
+    top:0;
+}
+.cajasticky{
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
