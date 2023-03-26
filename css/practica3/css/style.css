@@ -12,7 +12,7 @@ div{
     margin: 20px auto auto;
     text-align: justify;
     padding: 20px;
-
+    transition: all 1s;
 }
 div img{
     float: left;
@@ -20,12 +20,47 @@ div img{
     margin: 10px;
     margin-bottom: -10px;
     border: 2px groove gray;
+    
+}
+.text::first-line{
+    font-weight: 400;
+    color: darkblue;
+}
+.text::first-letter{
+    font-size: 2em;
+}
+input[type="text"]{
+   
+    margin-top: 10px;
 }
 
-
-
-
-
+input[type="text"]::placeholder{
+    font-size: .5em;
+    color: darkcyan;
+}
+input[type="text"]::selection{
+    color: white;
+    background-color: black;
+}
+input[type="text"]:focus{
+    border: 3px solid blueviolet;
+}
+b::before{
+    content: "!Hola ";
+}
+b::after{
+    content: ", ¿Cómo estás?";
+}
+div:hover{
+    background-color: darkslateblue;
+    color: white;
+    cursor: pointer;
+}
+div:active{
+    width: 400px;
+    background-color: lightslategray;
+    cursor: e-resize;
+}
 
 
 
