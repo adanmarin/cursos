@@ -1,0 +1,94 @@
+*{
+    font-size: 20px;
+    font-weight: 100;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    width: 300px;
+    border: 1px solid gray;
+    margin: 20px auto auto;
+    text-align: justify;
+    padding: 20px;
+
+}
+div img{
+    float: left;
+    width: 100px;
+    margin: 10px;
+    margin-bottom: -10px;
+    border: 2px groove gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*p{
+    
+    width: 400px;
+    height: 400px;
+    background-color: antiquewhite;
+    margin: 0 auto;
+    overflow-x:scroll;
+    overflow-y:hidden;
+}*/
