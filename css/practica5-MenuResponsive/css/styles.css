@@ -8,9 +8,11 @@
 }
 .nav__responsive-ul{
     display: none;
+    z-index: 500;
 }
 .nav{
     background-color: #48e;
+    
 }
 .nav__li{
     display: inline-block;
