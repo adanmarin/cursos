@@ -1,0 +1,25 @@
+*{
+    font-family: 'Sen',sans-serif;
+    font-weight: 100;
+}
+.flex_container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.form{
+    min-width: 400px;
+    flex: 2;
+    text-align: center;
+
+}
+.form__input{
+    width: 100%;
+}
+.form_img{
+    flex: 1;
+}
+.form_img img{
+    width: 100%;
+}
